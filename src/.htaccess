@@ -1,0 +1,2 @@
+AddHandler php-script .inc
+Header set Access-Control-Allow-Origin "*"

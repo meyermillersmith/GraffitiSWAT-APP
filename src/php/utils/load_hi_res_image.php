@@ -1,0 +1,1 @@
+<img src="images/surfaces/<?php echo $_GET['id']; ?>/thumbnail_250.png" />

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colors>
+<palette id="kobra" defaultColor="ec9a00">        
+
+<color hex="fffeff" name="pure white" />
+<color hex="131115" name="X2 black rat" />
+<color hex="e8c5a5" name="X3 desert " />
+<color hex="937f6df" name="X4 oasy" />
+<color hex="bba389" name="X5 safari" />
+<color hex="fcbd00" name="X6 beer" />
+<color hex="ffe861" name="risotto " />
+<color hex="ffec00" name="X8 san donato" />
+<color hex="ec9a00" name="fever" />
+<color hex="f63a00" name="spremuta" />
+<color hex="fe7f4a" name="atm" />
+<color hex="fc6300" name="mandarino" />
+<color hex="f42b00" name="courrier" />
+<color hex="c90000" name="ginger" />
+<color hex="d72f00" name="aperetivo" />
+<color hex="8a3433" name="wine" />
+<color hex="b5001e" name="Kampari" />
+<color hex="e37e82" name="ham" />
+<color hex="ae495e" name="dildo" />
+<color hex="945c71" name="marylin" />
+<color hex="a30069" name="babydoll" />
+<color hex="d8478f" name="sexy fuchsia" />
+<color hex="c10055" name="perizoma" />
+<color hex="77005c" name="capone" />
+<color hex="704485" name="gotti" />
+<color hex="7c4579" name="don vito" />
+<color hex="915c9e" name="gangster" />
+<color hex="aa76b0" name="soprano" />
+<color hex="bacc00" name="amazzonia" />
+<color hex="aea500" name="bamboo" />
+<color hex="4a5e1a" name="full metal" />
+<color hex="6e5d31" name="vietnam" />
+<color hex="26a115" name="predator" />
+<color hex="7a8b49" name="rambo" />
+<color hex="b4aa9e" name="uzi" />
+<color hex="83898e" name="magnum" />
+<color hex="9d918b" name="kalashnukov" />
+<color hex="3b4248" name="winchester" />
+<color hex="343539" name="P38" />
+<color hex="26353a" name="lupara" />
+<color hex="752515" name="cola" />
+<color hex="8b2012" name="tabacco" />
+<color hex="8b6f64" name="charlie" />
+<color hex="ac5d68" name="tamarindo" />
+<color hex="957266" name="caffelatte" />
+<color hex="2f1513" name="chinotto" />
+<color hex="005aac" name="scampia" />
+<color hex="2ab8e3" name="rozzano" />
+<color hex="00477e" name="magliana" />
+<color hex="508bbe" name="valette" />
+<color hex="c6e9ee" name="stanga" />
+<color hex="70a5d1" name="zen" />
+<color hex="597bba" name="pilastro" />
+<color hex="002970" name="comasino" />
+<color hex="0061b5" name="cicarelli" />
+<color hex="007cc4" name="cascine" />
+<color hex="003c83" name="cep" />
+
+
+</palette>
+
+	<palette id="tamiya">        
+
+<color hex="1b1e1d" name="X1 Black" />
+<color hex="fcfdff" name="X2 White" />
+<color hex="325179" name="X3 Royal Blue " />
+<color hex="0c69bf" name="X4 Blue" />
+<color hex="18775d" name="X5 Green" />
+<color hex="fb8e30" name="X6 Orange" />
+<color hex="f9494a" name="X7Red " />
+<color hex="ffe500" name="X8 Lemon Yellow" />
+<color hex="9c5148" name="X9 Brown" />
+<color hex="646f6e" name="X10 Gun Metal" />
+<color hex="e5e8ea" name="X11Chrome Silver" />
+<color hex="ecc02a" name="X12 Gold Leaf" />
+<color hex="0074a7" name="X13 Metallic Blue" />
+<color hex="00bbf3" name="X14 Sky Blue" />
+<color hex="b0ca40" name="X15 Light Green" />
+<color hex="7c6ab3" name="X16 Purple" />
+<color hex="f8abd0" name="X17 Pink" />
+<color hex="020202" name="X18 Gloss Black" />
+<color hex="dde0e3" name="X19 Smoke" />
+<color hex="00bbf2" name="X23 Clear Blue" />
+<color hex="fee700" name="X24 Clear Yellow" />
+<color hex="23a553" name="X25 Clear Green" />
+<color hex="fda02c" name="X26 Clear Orange" />
+<color hex="f94aa7" name="X27 Clear Red" />
+<color hex="009d55" name="X28 Park Green" />
+<color hex="edddc0" name="X31 Titanium Gold" />
+<color hex="edebe1" name="X32 Titanium Silver" />
+<color hex="988280" name="X33 Bronze" />
+<color hex="dccf41" name="XF4 Flat Yellow Green" />
+<color hex="859679" name="XF4 Flat Flat Green" />
+<color hex="e3734a" name="XF6 Copper" />
+<color hex="f6464d" name="XF7 Flat Red" />
+<color hex="007bae" name="XF8 Flat Blue" />
+<color hex="82484a" name="XF9 Hull Red" />
+<color hex="755250" name="XF10 Flat Brown" />
+<color hex="275252" name="XF11 J.N.Green" />
+<color hex="e0e1db" name="XF12 J.N.Grey" />
+<color hex="34575d" name="XF13 J.A. Green" />
+<color hex="f0efe4" name="XF14 J.A.Grey" />
+<color hex="fee1b3" name="XF15 Flat Flesh" />
+<color hex="cdd4d6" name="XF16 Flat Aluminium" />
+<color hex="305272" name="XF17 Sea Blue" />
+<color hex="3c8ab8" name="XF11´8 Medium Blue" />
+<color hex="dfdfdd" name="XF19 Sky Grey" />
+<color hex="d0d4d5" name="XF20 Medium Grey" />
+<color hex="eef3e4" name="XF21 Sky" />
+<color hex="747985" name="XF22 Plum Grey" />
+<color hex="9cddec" name="XF23 Light Blue" />
+<color hex="5d7893" name="XF24 Dark Grey" />
+<color hex="9bb4c0" name="XF25 Light Sea Grey" />
+<color hex="416e59" name="XF26 Deep Green" />
+<color hex="305853" name="XF27 Black Green" />
+<color hex="c79b82" name="XF28 Dark Copper" />
+<color hex="c2a657" name="XF49 Khaki" />
+<color hex="4698be" name="XF50 Field Blue" />
+<color hex="817579" name="XF51 Khaki Drab" />
+<color hex="b8604b" name="XF52 Flat Earth" />
+<color hex="859fa8" name="XF53 Neutral Grey" />
+<color hex="c9c8cc" name="XF54 Dark Sea Grey" />
+<color hex="e1d4c6" name="XF55 Deck Tan" />
+<color hex="888e8d" name="XF56 Metallic Grey" />
+<color hex="e4c59f" name="XF57 Buff" />
+<color hex="485551" name="XF58 olive Green" />
+<color hex="f7d6a7" name="XF59 Desert Yellow" />
+<color hex="dfc565" name="XF60 Dark Yellow" />
+<color hex="2d5550" name="XF61 Dark Green" />
+<color hex="6f6c5d" name="XF62 Olive  Drab" />
+<color hex="5d818f" name="XF63 German Grey" />
+<color hex="664d46" name="XF64 Red Brown" />
+<color hex="677c8f" name="XF65 Field Grey" />
+<color hex="5d7d8d" name="XF66 Light Grey" />
+<color hex="4c6054" name="XF67 Nato Green" />
+<color hex="8a6050" name="XF68 Nato Brown" />
+<color hex="1d2222" name="XF69 Nato Black" />
+<color hex="39554f" name="XF70 Dark Green 2" />
+<color hex="9cae91" name="XF71 Cockpit Green" />
+<color hex="a5724a" name="XF72 BROWN JGSDF" />
+<color hex="486751" name="XF73 Dark Green JGSDF" />
+<color hex="506054" name="XF74 Olive Drab JGSDF" />
+<color hex="748892" name="XF75 LIN Gray" /> 
+
+</palette>
+	
+	<palette id="lessrain" isDefault="true" defaultColor="FF2301">
+		<color hex="BEBD7F" />
+		<color hex="C2B078" />
+		<color hex="C6A664" />
+		<color hex="E5BE01" />
+		<color hex="CDA434" />
+		<color hex="A98307" />
+		<color hex="E4A010" />
+		<color hex="DC9D00" />
+		<color hex="8A6642" />
+		<color hex="C7B446" />
+		<color hex="EAE6CA" />
+		<color hex="E1CC4F" />
+		<color hex="E6D690" />
+		<color hex="EDFF21" />
+		<color hex="F5D033" />
+		<color hex="F8F32B" />
+		<color hex="9E9764" />
+		<color hex="999950" />
+		<color hex="F3DA0B" />
+		<color hex="FAD201" />
+		<color hex="AEA04B" />
+		<color hex="FFFF00" />
+		<color hex="9D9101" />
+		<color hex="F4A900" />
+		<color hex="D6AE01" />
+		<color hex="F3A505" />
+		<color hex="EFA94A" />
+		<color hex="6A5D4D" />
+		<color hex="705335" />
+		<color hex="F39F18" />
+		<color hex="ED760E" />
+		<color hex="C93C20" />
+		<color hex="CB2821" />
+		<color hex="FF7514" />
+		<color hex="F44611" />
+		<color hex="FF2301" />
+		<color hex="FFA420" />
+		<color hex="F75E25" />
+		<color hex="F54021" />
+		<color hex="D84B20" />
+		<color hex="EC7C26" />
+		<color hex="E55137" />
+		<color hex="C35831" />
+		<color hex="AF2B1E" />
+		<color hex="A52019" />
+		<color hex="A2231D" />
+		<color hex="9B111E" />
+		<color hex="75151E" />
+		<color hex="5E2129" />
+		<color hex="412227" />
+		<color hex="642424" />
+		<color hex="781F19" />
+		<color hex="C1876B" />
+		<color hex="A12312" />
+		<color hex="D36E70" />
+		<color hex="EA899A" />
+		<color hex="B32821" />
+		<color hex="E63244" />
+		<color hex="D53032" />
+		<color hex="CC0605" />
+		<color hex="D95030" />
+		<color hex="F80000" />
+		<color hex="FE0000" />
+		<color hex="C51D34" />
+		<color hex="CB3234" />
+		<color hex="B32428" />
+		<color hex="721422" />
+		<color hex="B44C43" />
+		<color hex="6D3F5B" />
+		<color hex="922B3E" />
+		<color hex="DE4C8A" />
+		<color hex="641C34" />
+		<color hex="6C4675" />
+		<color hex="A03472" />
+		<color hex="4A192C" />
+		<color hex="924E7D" />
+		<color hex="A18594" />
+		<color hex="CF3476" />
+		<color hex="8673A1" />
+		<color hex="6C6874" />
+		<color hex="354D73" />
+		<color hex="1F3438" />
+		<color hex="20214F" />
+		<color hex="1D1E33" />
+		<color hex="18171C" />
+		<color hex="1E2460" />
+		<color hex="3E5F8A" />
+		<color hex="26252D" />
+		<color hex="025669" />
+		<color hex="0E294B" />
+		<color hex="231A24" />
+		<color hex="3B83BD" />
+		<color hex="1E213D" />
+		<color hex="606E8C" />
+		<color hex="2271B3" />
+		<color hex="063971" />
+		<color hex="3F888F" />
+		<color hex="1B5583" />
+		<color hex="1D334A" />
+		<color hex="256D7B" />
+		<color hex="252850" />
+		<color hex="49678D" />
+		<color hex="5D9B9B" />
+		<color hex="2A6478" />
+		<color hex="102C54" />
+		<color hex="316650" />
+		<color hex="287233" />
+		<color hex="2D572C" />
+		<color hex="424632" />
+		<color hex="1F3A3D" />
+		<color hex="2F4538" />
+		<color hex="3E3B32" />
+		<color hex="343B29" />
+		<color hex="39352A" />
+		<color hex="31372B" />
+		<color hex="35682D" />
+		<color hex="587246" />
+		<color hex="343E40" />
+		<color hex="6C7156" />
+		<color hex="47402E" />
+		<color hex="3B3C36" />
+		<color hex="1E5945" />
+		<color hex="4C9141" />
+		<color hex="57A639" />
+		<color hex="BDECB6" />
+		<color hex="2E3A23" />
+		<color hex="89AC76" />
+		<color hex="25221B" />
+		<color hex="308446" />
+		<color hex="3D642D" />
+		<color hex="015D52" />
+		<color hex="84C3BE" />
+		<color hex="2C5545" />
+		<color hex="20603D" />
+		<color hex="317F43" />
+		<color hex="497E76" />
+		<color hex="7FB5B5" />
+		<color hex="1C542D" />
+		<color hex="193737" />
+		<color hex="008F39" />
+		<color hex="00BB2D" />
+		<color hex="78858B" />
+		<color hex="8A9597" />
+		<color hex="7E7B52" />
+		<color hex="6C7059" />
+		<color hex="969992" />
+		<color hex="646B63" />
+		<color hex="6D6552" />
+		<color hex="6A5F31" />
+		<color hex="4D5645" />
+		<color hex="4C514A" />
+		<color hex="434B4D" />
+		<color hex="4E5754" />
+		<color hex="464531" />
+		<color hex="434750" />
+		<color hex="293133" />
+		<color hex="23282B" />
+		<color hex="332F2C" />
+		<color hex="686C5E" />
+		<color hex="474A51" />
+		<color hex="2F353B" />
+		<color hex="8B8C7A" />
+		<color hex="474B4E" />
+		<color hex="B8B799" />
+		<color hex="7D8471" />
+		<color hex="8F8B66" />
+		<color hex="D7D7D7" />
+		<color hex="7F7679" />
+		<color hex="7D7F7D" />
+		<color hex="B5B8B1" />
+		<color hex="6C6960" />
+		<color hex="9DA1AA" />
+		<color hex="8D948D" />
+		<color hex="4E5452" />
+		<color hex="CAC4B0" />
+		<color hex="909090" />
+		<color hex="82898F" />
+		<color hex="D0D0D0" />
+		<color hex="898176" />
+		<color hex="826C34" />
+		<color hex="955F20" />
+		<color hex="6C3B2A" />
+		<color hex="734222" />
+		<color hex="8E402A" />
+		<color hex="59351F" />
+		<color hex="6F4F28" />
+		<color hex="5B3A29" />
+		<color hex="592321" />
+		<color hex="382C1E" />
+		<color hex="633A34" />
+		<color hex="4C2F27" />
+		<color hex="45322E" />
+		<color hex="403A3A" />
+		<color hex="212121" />
+		<color hex="A65E2E" />
+		<color hex="79553D" />
+		<color hex="755C48" />
+		<color hex="4E3B31" />
+		<color hex="763C28" />
+		<color hex="FDF4E3" />
+		<color hex="E7EBDA" />
+		<color hex="F4F4F4" />
+		<color hex="282828" />
+		<color hex="0A0A0A" />
+		<color hex="A5A5A5" />
+		<color hex="8F8F8F" />
+		<color hex="FFFFFF" />
+		<color hex="1C1C1C" />
+		<color hex="F6F6F6" />
+		<color hex="1E1E1E" />
+		<color hex="D7D7D7" />
+		<color hex="9C9C9C" />
+		<color hex="828282" />
+	</palette>
+</colors>

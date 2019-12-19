@@ -1,0 +1,84 @@
+
+
+/**
+* SWAT PULLDOWN
+*/
+
+
+
+.pulldownClicker {
+	/*left piece*/
+	background-image: url(../images/startpage/sprites_buttons.png);
+    background-position: left -1171px;
+    background-repeat: no-repeat;
+    
+    float: left;
+    height: 35px;
+    padding-left: 27px;
+}
+
+.pulldownClicker:hover {
+    background-position: left -1209px;;
+}
+
+.pulldownClickerRight {
+    /*right piece*/
+	background-image: url(../images/startpage/sprites_buttons.png);
+    background-position: right -891px;
+    background-repeat: no-repeat;
+    
+    float: left;
+    width: 20px;
+    height: 35px;
+}
+
+.pulldownClickerMiddle {
+	/*middle piece*/
+	color: #ffb220;
+	
+	background-image: url(../images/startpage/sprites_buttons.png);
+    background-position: right -1053px;
+    background-repeat: repeat-x;
+    
+    float: left;
+    height: 35px;
+    width: 180px;
+    line-height:25px;
+    padding: 0px 5px 0 5px;
+}
+
+#pulldownSelector {
+    background-color: #282828;
+    margin: 17px 0 0 2px;
+    padding: 10px 0px 0 0px;
+    width: 228px;
+    max-height: 400px;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    visibility: hidden;
+    
+    position:absolute;
+    top:153px;
+    left:210px;
+	z-index: 2;
+	
+}
+.pulldownSelectorItem {
+	color:#666;
+	height:30px;
+    padding: 8px 10px 0 10px;
+    cursor: pointer;
+}
+.pulldownSelectorItem:hover {
+	color:#fff;
+	/*background-color: #ffb220;*/
+}
+
+.pulldownSelectorLine {
+	height:1px;
+    width: 226px;
+    margin: 0 2px 0 2px;
+    border-top: 1px dotted #666;
+    background-color:#282828;
+}

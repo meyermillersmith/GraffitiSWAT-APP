@@ -1,0 +1,277 @@
+a:link
+{
+	color: #FFFFFF;
+}
+a:hover
+{
+	color: #FFBB00;
+}
+.sample
+{
+	font-family: "Arial Bold";
+	font-size: 12;
+	leading: 4;
+	color: #ffffff;
+	
+	embed-font: true;
+	anti-alias-type: advanced;
+	anti-alias-thickness: 0;
+	anti-alias-sharpness: 0;
+	grid-fit-type: pixel;
+}
+.button
+{
+	font-family: "Arial Bold";
+	font-size: 16;
+	leading: 4;
+	color: #ffffff;
+	
+	embed-font: true;
+	anti-alias-type: advanced;
+	anti-alias-thickness: 0;
+	anti-alias-sharpness: 0;
+	grid-fit-type: pixel;
+}
+.saveButton
+{
+	font-family: "Arial Bold";
+	font-size: 16;
+	leading: 4;
+	color: #000000;
+	
+	embed-font: true;
+	anti-alias-type: advanced;
+	anti-alias-thickness: 0;
+	anti-alias-sharpness: 0;
+	grid-fit-type: pixel;
+}
+.postButton
+{
+	font-family: "Arial Bold";
+	font-size: 16;
+	leading: 4;
+	color: #000000;
+	text-align:center;
+	
+	embed-font: true;
+	anti-alias-type: advanced;
+	anti-alias-thickness: 0;
+	anti-alias-sharpness: 0;
+	grid-fit-type: pixel;
+}
+
+.postButtonOver
+{
+	font-family: "Arial Bold";
+	font-size: 16;
+	leading: 4;
+	color: #FFFFFF;
+	text-align:center;
+	
+	embed-font: true;
+	anti-alias-type: advanced;
+	anti-alias-thickness: 0;
+	anti-alias-sharpness: 0;
+	grid-fit-type: pixel;
+}
+.postButtonSub
+{
+	font-family: "Arial Bold";
+	font-size: 11;
+	leading: 4;
+	color: #000000;
+	text-align:center;
+		
+	embed-font: true;
+	anti-alias-type: advanced;
+	anti-alias-thickness: 0;
+	anti-alias-sharpness: 0;
+	grid-fit-type: pixel;
+}
+.postButtonSubOver
+{
+	font-family: "Arial Bold";
+	font-size: 11;
+	leading: 4;
+	color: #FFFFFF;
+	text-align:center;
+		
+	embed-font: true;
+	anti-alias-type: advanced;
+	anti-alias-thickness: 0;
+	anti-alias-sharpness: 0;
+	grid-fit-type: pixel;
+}
+.surfaceTitle
+{
+	font-family: "Arial Bold";
+	font-size: 12;
+	leading: 4;
+	color: #ffffff;
+	text-align:center;
+	
+	embed-font: true;
+	anti-alias-type: advanced;
+	anti-alias-thickness: 0;
+	anti-alias-sharpness: 0;
+	grid-fit-type: pixel;
+}
+.price
+{
+	font-family: "Arial Italic";
+	font-size: 12;
+	leading: 4;
+	color: #ed1c24;
+	text-align:center;
+	
+	embed-font: true;
+	anti-alias-type: advanced;
+	anti-alias-thickness: 0;
+	anti-alias-sharpness: 0;
+	grid-fit-type: pixel;
+}
+.popupTitle
+{
+	font-family: "Arial Bold";
+	font-size: 12;
+	leading: 4;
+	color: #ffffff;
+		
+	embed-font: true;
+	anti-alias-type: advanced;
+	anti-alias-thickness: 0;
+	anti-alias-sharpness: 0;
+	grid-fit-type: pixel;
+}
+.popup
+{
+	font-family: "Arial Bold";
+	font-size: 12;
+	leading: 4;
+	color: #FF9900;
+		
+	embed-font: true;
+	anti-alias-type: advanced;
+	anti-alias-thickness: 0;
+	anti-alias-sharpness: 0;
+	grid-fit-type: pixel;
+}
+.popupButton
+{
+	font-family: "Arial Bold";
+	font-size: 14;
+	leading: 4;
+	color: #ffffff;
+	
+	embed-font: true;
+	anti-alias-type: advanced;
+	anti-alias-thickness: 0;
+	anti-alias-sharpness: 0;
+	grid-fit-type: pixel;
+}
+.buyPopupTitle
+{
+	font-family: "Lubalin";
+	font-size: 28;
+	leading: 4;
+	color: #FF9900;
+		
+	embed-font: true;
+	anti-alias-type: advanced;
+	anti-alias-thickness: 0;
+	anti-alias-sharpness: 0;
+	grid-fit-type: pixel;
+}
+.buyPopupPrice
+{
+	font-family: "Arial Bold";
+	font-size: 14;
+	leading: 4;
+	color: #888888;
+		
+	embed-font: true;
+	anti-alias-type: advanced;
+	anti-alias-thickness: 0;
+	anti-alias-sharpness: 0;
+	grid-fit-type: pixel;
+}
+.buyPopupFBCreditsHow
+{
+	font-family: "Arial Bold";
+	font-size: 10;
+	leading: 4;
+	color: #FF9900;
+		
+	embed-font: true;
+	anti-alias-type: advanced;
+	anti-alias-thickness: 0;
+	anti-alias-sharpness: 0;
+	grid-fit-type: pixel;
+}
+.toolPaletteTitle
+{
+	font-family: "Arial Bold";
+	font-size: 11;
+	leading: 4;
+	color: #FFFFFF;
+	text-align:center;
+		
+	embed-font: true;
+	anti-alias-type: advanced;
+	anti-alias-thickness: 0;
+	anti-alias-sharpness: 0;
+	grid-fit-type: pixel;
+}
+.toolTitle
+{
+	font-family: "Arial Bold";
+	font-size: 11;
+	leading: 4;
+	color: #000000;
+	text-align:center;
+		
+	embed-font: true;
+	anti-alias-type: advanced;
+	anti-alias-thickness: 0;
+	anti-alias-sharpness: 0;
+	grid-fit-type: pixel;
+}
+.captionInput
+{
+	font-family: "Arial Bold";
+	font-size: 11;
+	leading: 4;
+	color: #ffffff;
+		
+	embed-font: true;
+	anti-alias-type: advanced;
+	anti-alias-thickness: 0;
+	anti-alias-sharpness: 0;
+	grid-fit-type: pixel;
+}
+.captionInputDefault
+{
+	font-family: "Arial Bold";
+	font-size: 11;
+	leading: 4;
+	color: #666666;
+		
+	embed-font: true;
+	anti-alias-type: advanced;
+	anti-alias-thickness: 0;
+	anti-alias-sharpness: 0;
+	grid-fit-type: pixel;
+}
+.fbFriend
+{
+	font-family: "Arial Bold";
+	font-size: 12;
+	leading: 4;
+	color: rgb(51, 51, 51);
+	
+	embed-font: true;
+	anti-alias-type: advanced;
+	anti-alias-thickness: 0;
+	anti-alias-sharpness: 0;
+	grid-fit-type: pixel;
+}

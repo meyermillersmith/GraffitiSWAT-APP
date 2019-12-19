@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'Lubalin Graph Demi';
+    src: url('../../fonts/lubalingraphstd-demi-webfont.eot');
+    src: url('../../fonts/lubalingraphstd-demi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/lubalingraphstd-demi-webfont.woff') format('woff'),
+         url('../../fonts/lubalingraphstd-demi-webfont.ttf') format('truetype'),
+         url('../../fonts/lubalingraphstd-demi-webfont.svg#ITCLubalinGraphStdDemi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+  
+body {
+	margin:0; padding:0; border:0;
+}
+
+#wrapper {
+	width: 520px; 
+	overflow: hidden; 
+	position: relative;
+	margin:0; padding:0; border:0;
+}
+
+#main { width: 100%; margin: 0px 0 0px; clear: both; color: #fbcd22; overflow: hidden; }
+#content,
+#headlines,
+#homefooter { width: 100%; margin: 0 auto 0px; padding:0; }
+
+.tabs { 
+	width: 100%;
+	height: 34px;
+	max-height: 34px;
+	overflow:hidden;
+	margin: 0;
+	padding:0;
+}
+.tabs div {
+	float:left;
+	color: #BBBBBB;
+	font: 9pt Lubalin Graph Demi;
+	padding: 5px 12px 5px 20px; 
+	line-height:1em;
+	background-color: #606060;
+}
+.tabcorners { 
+	position: absolute;
+	z-index: 103;
+	top:0;
+	left:0;
+}
+.textBackground { 
+	width: 100%;
+	height: 65px;
+	max-height: 65px;
+	overflow:hidden;
+	margin: 0;
+	padding:0;
+	background-color:#000000;
+}
+
+.spray { 
+	position: absolute;
+	width: 472px;
+	height: 39px;
+	max-height: 65px;
+	overflow:hidden;
+	margin: 0;
+	padding:0;
+	z-index: 102;
+	top:266px;
+	left:5px;
+	cursor:pointer;
+	background:url(../images/elements/gallery_text.png) 0 0 no-repeat;
+}
+.spray:hover { 
+	background-position:0px -39px;
+}
+
+.clickhere { 
+	width: 100%;
+	height: 83px;
+	max-height: 83px;
+	overflow:hidden;
+	margin: 0;
+	padding:0;
+}
+
+.clickhere img{
+	margin:24px 0px 0px 46px;
+}
+
+.start { 
+	position: absolute;
+	z-index: 101;
+	width: 199px;
+	height: 255px;
+	right:0px;
+	top:254px;
+	cursor:pointer;
+	background:url(../images/elements/start.png) 0 0 no-repeat;
+}
+
+.start:hover { 
+	background-position:-199px 0px;
+}
+.teaserMain { 
+	width: 100%;
+	height: 220px;
+	max-height: 220px;
+	overflow:hidden;
+	margin: 0;
+	padding:0;
+}
+.scrollable { position:relative; width: 520px; height: 100%; z-index: 50;}
+.scrollable .items {
+	width:20000em;
+	position:absolute;
+}
+.items div {
+	float:left;
+}
+.scrollable img {
+	float:left;
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	border:none;
+}
+
+
+#hsP {
+position: absolute;
+z-index: 100;
+width: 65px;
+height: 65px;
+top: 9em;
+left: 1em;
+}
+
+#hsN {
+position: absolute;
+z-index: 99;
+width: 65px;
+height: 65px;
+top: 9em;
+left: 440px;
+}
+
+
+a.browse {
+	background:url(../images/controls/scroll/ic_icons.png) no-repeat; display:block; width:62px; height:62px; margin:0; cursor:pointer; font-size:1px;
+}
+
+a.right 		{ background-position: -124px 0; clear:right; margin-right: 0px;}
+a.right:hover 	{ background-position:-62px 0; }
+a.right:active 	{ background-position:-62px 0; } 
+
+
+a.left			{background-position: -124px -62px; margin-left: 0px; } 
+a.left:hover  	{ background-position:-62px -62px; }
+a.left:active  	{ background-position:-62px -62px; }
+
+
+a.disabled {
+	visibility:hidden !important;		
+}
+
+a:hover img, a:visited img, a:active img {
+border: none;
+display: block;
+}
+
+
+.naviHolder {
+	width: 100%;
+	background-color: #ffbe00;
+}
+
+.navi {
+	height: 40px;
+	margin: 0px 20px 0px 20px;
+	width: 60px;
+	
+}
+
+.navi a {
+	width:8px; height:8px; float:left; margin:3px; margin-top:16px; background:url(../images/controls/scroll/navigator.png) 0 0 no-repeat; display:block; font-size:1px;
+}
+
+.navi a:hover {
+	background-position:0 -8px;      
+}
+
+.navi a.active {
+	background-position:0 -16px;     
+}
+
+.videoTeaser {
+	position: absolute;
+	top: 257px;
+	left: 0px;
+	z-index: 100;
+}
+
+.hotlinkText {
+	font: 1.2em Times New Roman; font-style: italic;
+	color: #6b6d70;
+	float: left; 
+	width: 236px; 
+	height: 190px; 
+	margin: 0;
+	padding-right: 12px; 
+	background-repeat: repeat-y;
+	background-position: 236px 0;
+}
+.hotlinkText a {
+	color: #ff8c00;
+}
+.hotlinkText a:hover {
+	color: #6b6d70;
+	text-decoration: none;
+}
+
+
+.hotlink {
+	display: inline; 
+	float: left; 
+	width: 253px; 
+	margin: 0; 
+	padding-right: 12px; 
+	background-repeat: repeat-y; 
+	background-position: 253px 0;
+}
+
+.hotlinkLast {
+	padding-right: 0px; 
+}
+
+.caption {
+	color: #000000;
+	font: 0.8em Verdana;
+	margin: 5px 0px 0px 0px; 
+}

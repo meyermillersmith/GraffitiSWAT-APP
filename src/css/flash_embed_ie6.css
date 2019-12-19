@@ -1,0 +1,4 @@
+.fullFlashWrapperIE6
+{
+	width: expression(document.body.clientWidth < 541 ? "540px": "100%" );
+}

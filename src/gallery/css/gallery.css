@@ -1,0 +1,579 @@
+body {
+	background: none;
+	background-color: #150e12;
+	margin: 0px;
+	padding: 0px;
+
+	width: 100%;
+	min-width: 760px;
+
+	height: 100%;
+	font-family: Lubalin Graph Demi;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	background: none;
+	background-color: #000000;
+}
+
+#gallery_wrapper {
+    padding: 20px 10px 0px 10px;
+}
+
+/* INDEX PAGE*/
+
+#index_wrapper {
+    padding: 50px 0px 0px 10px;
+	width: 745px; 
+}
+
+#sideContainerLeft {
+	float: left;
+    width: 195px;
+}
+#mainContainer {
+    float: left;
+    width: 370px;
+}
+#sideContainerRight {
+	float: left;
+    width: 180px;
+}
+
+.mainContainerPic {
+    position: relative;
+    width: 355px;
+    height: 250px;
+    background-color: #000;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    
+	text-decoration: none;
+    margin: 0px 0px 30px 0px;
+}
+
+.sideContainerPic {
+    position: relative;
+    width: 180px; 
+    height: 130px;
+    background-color: #000000;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    
+	text-decoration: none;
+}
+
+.indexPreview {
+    margin-bottom: 10px;
+    position: relative;
+    
+    margin: 0px 0px 20px 0px;
+}
+
+.galleryLabel {
+	color: #ffffff;
+	position: absolute;
+	padding: 5px 0px 5px 10px;
+	z-index: 1;
+}
+
+.galleryCount {
+	color: #ffb220;
+	position: absolute;
+	bottom: 0px;
+	padding: 5px 0px 5px 10px;
+	z-index: 1;
+}
+
+.mainContainerLabelBG {
+	background-color:#000;
+	opacity:0.6;
+	z-index: 0;
+    width: 345px;
+}
+
+.sideContainerLabelBG {
+	background-color:#000;
+	opacity:0.6;
+	z-index: 0;
+    width: 170px;
+}
+
+.username {
+	position: relative;
+	color: #444;
+	font-family: Georgia,"Nimbus Roman No9 L",serif;
+    font-size: 12px;
+	line-height: 16px;
+    font-style: italic;
+    /*font-weight: bold;*/
+    font-size: 14px;
+	text-decoration: none;
+}
+.picktag {
+	position: relative;
+	float: right;
+	top: -5px;
+	right: -5px;
+	width: 57px;
+	height: 90px;
+	background-image: url(../../images/startpage/bestOf.png);
+	z-index: 2;
+}
+
+#pickOfTheDay {
+	background-position:0px -2px;
+}
+#pickOfTheWeek {
+	background-position:-70px -2px;
+}
+#pickOfTheMonth {
+	background-position:-140px -2px;
+}
+#pickOfTheYear {
+	background-position:-210px -2px;
+}
+
+/**
+**LIST PAGE
+**/
+
+#listControls {
+	/*margin-bottom: 70px;*/
+    position:absolute;
+   /* top:60px;
+    left:10px;*/
+	z-index: 2;
+}
+
+#userGalleryTitle {
+	float: left;
+	color: #fff;
+	max-width:300px;
+}
+
+.userGalleryUser {
+	float: left;
+	margin: 3px 0 0 5px;
+}
+
+.blackButton {
+	/*left piece*/
+	background-image: url(../../images/startpage/sprites_buttons.png);
+    background-position: left -774px;
+    background-repeat: no-repeat;
+    
+    float:left;
+    padding-left:16px;
+    height: 35px;
+}
+
+.blackButton span {
+    /*right piece*/
+	background-image: url(../../images/startpage/sprites_buttons.png);
+    background-position: right -891px;
+    background-repeat: no-repeat;
+    height:100%;
+    float:left;
+    padding-right:20px;
+}
+
+.blackButton span span {
+	/*middle piece*/	
+	color: #fff;
+	background-image: url(../../images/startpage/sprites_buttons.png);
+    background-position: right -1053px;
+    background-repeat: repeat-x;
+    line-height:25px;
+    padding: 0px 5px 0 5px;
+}
+
+.galleryTitleUsername {
+	text-decoration: none;
+	color: #ffb220;
+	margin-right: 15px;
+}
+
+#sorting {
+	float: left;
+	margin-top: 3px;
+}
+#galleryPicker {
+	float: left;
+    padding-left:20px;
+}
+
+.sortby {
+	color:#444;
+}
+
+#listMainContent {
+	margin-top: 70px;
+	/*width:100%;*/
+}
+
+#rightBanner {
+	position:relative;
+	float: right;
+	width : 300px;
+	height : 250px;
+}
+
+#listImages {
+	position:relative;
+}
+
+.listControlLink {
+	color:#444;
+	text-decoration: none;
+	margin-left: 15px;
+}
+
+.listControlLink:hover, .listControlLinkActive{
+	color: #ffb220;
+}
+
+.sortArrowUp {
+	font-family: Arial;
+}
+.sortArrowDown {
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.listImage {
+	float:left;
+    width: 180px;
+    height: 175px;
+    margin: 5px 5px 5px 5px;
+}
+
+.listImageCollab {
+	position: relative;
+	float: left;
+    width: 180px;
+    height: 175px;
+	z-index: 1;
+}
+
+.listLikeCount {
+	float:left;
+	color: #666;
+    margin-right: 10px;
+    height: 15px;
+}
+
+.listDate {
+	float:right;
+	color: #666;
+    height: 15px;
+}
+
+.listUsername {
+	float:left;
+    width: 180px;
+	color: #444;
+	font-family: Georgia,"Nimbus Roman No9 L",serif;
+    font-style: italic;
+    font-size: 14px;
+	text-decoration: none;
+    padding-top: 2px;
+}
+
+.listUsernamePart {
+	float:left;
+}
+
+
+.skipButtonContainer {
+	position:relative;
+	width: 100%;
+	height:40px;
+	float:left;
+}
+
+.listCounter{
+	position:absolute;
+	float:left;
+	color: #FFB220;
+	height: 15px;
+	left:50%;
+}
+
+.previousButton {
+	position:relative;
+	float:left;
+}
+
+.nextButton {
+	position:relative;
+	float:right;
+}
+
+.picktagSmall {
+	position: relative;
+	float: right;
+	width: 22px;
+	height: 36px;
+	background-image: url(../../images/startpage/bestOf_small.png);
+	z-index: 1;
+}
+
+#pickOfTheDaySmall {
+	background-position:0px -1px;
+}
+#pickOfTheWeekSmall {
+	background-position:-28px -1px;
+}
+#pickOfTheMonthSmall {
+	background-position:-56px -1px;
+}
+#pickOfTheYearSmall {
+	background-position:-84px -1px;
+}
+
+.listBetweenAd {
+	float:left;
+	margin:5px;
+	width:100%;
+	min-width:760px;
+	height:90px;
+	margin-top:25px;
+	margin-bottom:25px;
+	position:relative
+}
+
+/* DETAILED VIEW PAGE */
+
+#imageGallery {
+	margin-top: 50px;
+	width: 100%;
+	height: 100%;
+	position:relative;
+	float:left;
+}
+
+#imageViewControls {
+	width: 740px;
+	height: 80px;
+	left: 50%;
+	margin-left:-370px;
+	position: relative;
+	
+	color:#403e42;
+}
+
+#imageCaption {
+	width: 720px;
+	left: 50%;
+	margin-left:-360px;
+	position: relative;
+	text-align: center;
+	
+	font-family: Georgia,"Nimbus Roman No9 L",serif;
+    font-style: italic;
+	
+	color:#fff;
+	/*color:#403e42;*/
+	margin-top: 5px;
+}
+
+#image {
+	width: 720px;
+	left: 50%;
+	margin-left:-360px;
+	position: relative;
+	cursor:url(../../images/startpage/zoom.png),pointer;
+}
+
+.imageCenterBar{
+	max-width: 940px;
+	position: absolute;
+	width:100%;
+	left: 50%;
+	margin-left:-360px;
+	top:200px;
+	z-index:4;
+}
+
+#imageArrows a{
+	text-decoration:none;
+}
+
+#imagePrevious {
+	float: left;
+}
+
+.imageArrowLeft {
+    width: 80px;
+    height: 80px;
+    display:block;
+    
+	background-image: url(../../images/startpage/sprites_all.png);
+	background-position:-428px -122px;
+	background-repeat: no-repeat;
+}
+
+.imageArrowLeft:hover{
+	background-position:-335px -122px;
+}
+
+#imageNext {
+	float: right;
+}
+
+.imageArrowRight {
+    width: 80px;
+    height: 80px;
+    display:block;
+    
+	background-image: url(../../images/startpage/sprites_all.png);
+	background-position:-245px -122px;
+    background-repeat: no-repeat;
+}
+
+.imageArrowRight:hover {
+	background-position:-152px -123px;
+}
+
+/* LOADING ANIMS */
+
+#loadingLayer{
+	z-index: 3;
+	display:block;
+}
+
+#imagePreviousLoadAnim{
+	float: left;
+}
+
+#imageNextLoadAnim{
+	float: right;
+	margin-right: 10px;
+}
+
+#imageLoadAnim{
+	float: left;
+}
+
+.loadingAnim{
+	background-image: url(../../images/startpage/loading_sprite.png);
+	background-position:0px 0px;
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 40px;
+}
+
+.detailedInBetweenAd{
+	margin-left:-150px;
+	padding-left:50%;
+}
+
+/* IMAGE INFO */
+
+.overTheImage{
+	z-index:5;
+	position: absolute;
+}
+
+#backButtonWrap{
+	width: 720px;
+	left: 50%;
+	margin-left:-360px;
+	position: relative;
+	
+	display:none;
+}
+#imageInfo{
+	color:#403e42;
+	float:left;
+	padding-top:3px;
+}
+#imageLikes {
+	color:#ffb220;
+}
+.imageInfoSeperator {
+	color:#615557;
+}
+
+#imageUser a {
+	font-family: Georgia,"Nimbus Roman No9 L",serif;
+    font-style: italic;
+    color:#fff;
+	text-decoration: none;
+}
+
+.afterImageInfo {
+	position: relative;
+	float:left;
+	margin-left: 5px;
+}
+
+.yellowButton {
+	
+	/*left piece*/
+	background-image: url(../../images/startpage/sprites_buttons.png);
+    background-position: left -813px;
+    background-repeat: no-repeat;
+    
+    float:left;
+    padding-left:16px;
+    height: 35px;
+}
+
+.yellowButton span {
+    /*right piece*/
+	background-image: url(../../images/startpage/sprites_buttons.png);
+    background-position: right -930px;
+    background-repeat: no-repeat;
+    height:100%;
+    float:left;
+    padding-right:20px;
+}
+
+.yellowButton span span {
+	/*middle piece*/	
+	color:#000;
+	background-image: url(../../images/startpage/sprites_buttons.png);
+    background-position: right -1092px;
+    background-repeat: repeat-x;
+    line-height:25px;
+    height: 35px;
+    padding: 0px 5px 0 5px;
+}
+
+
+.picktagDetailed {
+	position: relative;
+	float: right;
+	top: 5px;
+	right: 5px;
+	width: 57px;
+	height: 90px;
+	background-image: url(../../images/startpage/bestOf.png);
+	z-index: 2;
+}
+
+/**
+* GLOBAL
+**/
+
+
+.listImagePic {
+    width: 180px; 
+    height: 130px;
+    background-color: #000000;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0px 0px 5px 0px;
+	text-decoration: none;
+}

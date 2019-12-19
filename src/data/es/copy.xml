@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+	
+	<item key="surface.free">gratis</item>
+	<item key="surface.unlocked">desbloqueado</item>
+	<item key="surface.buy">comprar</item>
+	<item key="surface.currency">$</item>
+	<item key="surface.filler">Próximamente</item>
+	
+	<item key="palette.kobra">Kobra</item>
+	<item key="palette.lessrain">RAL</item>
+	<item key="palette.test">Brillo</item>
+	<item key="palette.tamiya">Tamiya</item>
+    <item key="palette.usedColors">Usado</item>
+    
+    <item key="design.palette">PALETA DE DISEÑO</item>
+    
+    <item key="tool.sprayCan">Spray</item>
+    <item key="tool.cap0">Skinny</item>
+    <item key="tool.cap1">Regular</item>
+    <item key="tool.cap2">Fat</item>
+    
+    <item key="tool.pen">Rotulador</item>
+    <item key="tool.pen0">S</item>
+    <item key="tool.pen1">M</item>
+    <item key="tool.pen2">L</item>
+    
+    <item key="tool.roller">Rodillo</item>
+    <item key="tool.roller0">S</item>
+    <item key="tool.roller1">M</item>
+    <item key="tool.roller2">L</item>
+    <item key="tool.roller.description">Pinta superficies grandes con el nuevo rodillo de pintura.</item>
+    <item key="tool.roller.tooltip">Utilice la rueda del ratón o pulsa A y S para girar el rodillo.</item>
+    
+    <item key="toolbar.distance">Distancia</item>
+    <item key="toolbar.caps">Caps</item>
+    <item key="toolbar.pen">Marcador</item>
+    <item key="toolbar.clear">despejar</item>
+    <item key="toolbar.save"><![CDATA[enviar & guardar]]></item>
+    <item key="toolbar.share.wall">Enviar a un amigo</item>
+    <item key="toolbar.share.wall.text">publicar a un amigo + tu álbum</item>
+    <item key="toolbar.save.album">Guardar en facebook</item>
+    <item key="toolbar.save.album.text">guardar esto en tu álbum de facebook</item>
+    <item key="toolbar.save.collab">Colaborar</item>
+    <item key="toolbar.save.collab.text">enviar como colaboración a un amigo</item>
+    <item key="toolbar.save.later">Guardar para Después</item>
+    <item key="toolbar.save.later.text">guardar graffiti y continuar luego</item>
+    <item key="toolbar.save.public">Publicar a S.W.A.T. Galería</item>
+    <item key="toolbar.save.public.text">publicar a S.W.A.T. galería + facebook</item>
+    <item key="toolbar.save.download">Descargar</item>
+    <item key="toolbar.save.download.text">descarga a tu computadora</item>
+    <item key="toolbar.back">cambiar superficie</item>
+    <item key="toolbar.undo">deshacer</item>
+    
+    <item key="tshirt.save.title"> </item>
+    <item key="tshirt.save.content"><![CDATA[* despues de descargar, pregúntale a un shop clerk que te asista.]]></item>
+    
+    <item key="toolbar.save.competition">Submit to Competition</item>
+    <item key="toolbar.save.competition.text">entrar a competencia + postear a tu galería</item>
+    <item key="toolbar.save.album.dudes">Guardar en Dudes Galería</item>
+    <item key="toolbar.save.album.text.dudes">guardar en Dudes Factory Facebook álbum</item>
+    <item key="toolbar.save.download.dudes">Descargar para Imprimir *</item>
+    <item key="toolbar.save.download.text.dudes">descarga para imprimir tu camiseta</item>
+    
+    <item key="confirm.clear.title">¿Estás seguro?</item>
+    <item key="confirm.clear.content"><![CDATA[Vas a perder este graffiti.]]></item>
+    
+    
+    <item key="confirmation.confirm">continuar</item>
+    <item key="confirmation.cancel">cancelar</item>
+    <item key="confirmation.checkbox"><![CDATA[No mostrar este mensaje de nuevo]]></item>
+
+    <item key="buyItem.buy">comprar</item>
+    <item key="buyItem.try">probar gratis</item>
+    <item key="buyItem.earn"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;créditos gratis]]></item>
+    <item key="facebook.credits.link.text">¿Qué son los créditos de Facebook?</item>
+    <item key="tryItem.title">¿Quieres probarlo ahora?</item>
+    <item key="tryItem.content">Sólo se puede probar una vez.</item>
+
+   <item key="tryItem.failed.ioerror"><![CDATA[Asegúrate que tu conexión a internet funciona y vuelve a intentar más tarde.]]></item>
+   <item key="tryItem.failed.db"><![CDATA[Algo fue mal. Recuerde que sólo se puede probar una vez.]]></item>
+
+    <item key="uploadPicture.title">Sube este Graffiti a tu Graffiti S.W.A.T. Blackbook:</item>
+    <item key="uploadPicture.title.alt">Sube este Graffiti a la oficial Galería S.W.A.T. :</item>
+    <item key="uploadPicture.competition.title">Presenta este Graffiti para la Competencia de Camisetas:</item>
+    <item key="uploadPicture.captionTitle">Descripción:</item>
+    <item key="uploadPicture.captionInput">Añade Descripción...</item>
+    <item key="uploadPicture.upload">subir</item>
+    
+    <item key="sendCollab.title">Envía una solicitud de colaboración a uno de tus amigos:</item>
+    <item key="sendCollab.captionTitle">Elige Amigo:</item>
+    <item key="sendCollab.captionInput">Escribe el nombre del amigo...</item>
+    
+    <item key="sendCollab.failed.db"><![CDATA[Perdona, no pudimos guardar tu colaboración.<br/><br/>Asegúrate que tu conexión a internet funciona y vuelve a intentar más tarde. ]]></item>
+    <item key="sendCollab.failed.message"><![CDATA[Perdona, no pudimos notificar a tu amigo.<br/><br/> Intenta de nuevo más tarde. ]]></item>
+    
+    <item key="sendCollab.message.success"><![CDATA[¡Solicitud de colaboración enviada!<br/><br/>Serás notificado cuando tu amigo publique el resultado y en cualquier momento que alguien colabore con esta pieza.]]></item>
+    
+    <item key="sendCollab.message.cancel.title">¿Estás seguro?</item>
+    <item key="sendCollab.message.cancel.content"><![CDATA[Tienes un mensaje de un amigo para colaborar. Si lo cancelas, tu colaboración se cancelará también. Solamente tu graffiti se guardará.]]></item>
+    <item key="sendCollab.message.cancel.confirm">enviar mensaje</item>
+    
+    <item key="saveForLater.failed.db"><![CDATA[Perdona, no pudimos guardar tu graffiti.<br/><br/>Asegúrate que tu conexión a internet funciona e inténtalo más tarde. ]]></item>
+   
+    <item key="saveForLater.override.title">¡No puedes guardar más de 1 graffiti!</item>
+    <item key="saveForLater.override.content"><![CDATA[Tienes otro Graffiti guardado para más tarde ¿Deseas sobreescribirlo con este?]]></item>
+    <item key="saveForLater.override.confirm">sobreescribir</item>
+    
+    <item key="facebook.sendCollab.name">$friendname$, $username$ wants you to collaborate on this Graffiti!</item>
+    <item key="facebook.sendCollab.description">Go to Graffiti S.W.A.T. to finish this piece!</item>
+     
+    <item key="facebook.feed.gallery.noimagetitle">a Graffiti</item>
+    <item key="facebook.feed.gallery.message">recién cargado $graffTitle$ a la Galería S.W.A.T. </item>
+    <item key="facebook.feed.gallery.competition.message">recién cargado $graffTitle$ a la Competencia de Camisetas</item>
+    <item key="facebook.feed.gallery.name">Echa un vistazo a la pieza de $userFirstName$ nuestra Galería Graffiti</item>
+    <item key="facebook.feed.gallery.name.alt">Echa un vistazo a la nueva pieza nuestra Galería Graffiti</item>
+    <item key="facebook.feed.gallery.competition.name">Vota por la pieza de $userFirstName$ en nuestra Galería Graffiti</item>
+    <item key="facebook.feed.gallery.competition.name.alt">Vota por la nueva pieza en nuestra Galería Graffiti</item>
+    <item key="facebook.feed.gallery.description">Crea y comparte un graffiti realístico con Graffiti S.W.A.T.</item>
+    
+
+ 	<item key="facebook.confirmUpload.title">¡Felicitaciones!</item>
+    <item key="facebook.confirmUpload.title.alt">¡Oops!</item>
+    <item key="facebook.confirmUpload.content"><![CDATA[¡Ahora eres el propietario de un nuevo brillante Blackbook! ¡Pulsa continuar para agregar tu primer Graffiti en él!]]></item>
+    <item key="facebook.confirmUpload.content.public"><![CDATA[¡Ahora puedes publicar esto en nuestra oficial Galería S.W.A.T.! ¡Pulsa continuar para hacer tu Graffiti accesible a nuestra Galería!]]></item>
+    <item key="facebook.confirmUpload.content.alt"><![CDATA[Parece que ya posees un Blackbook. Por favor confirma tu carga.]]></item>
+    <item key="facebook.confirmUpload.ok">continuar</item>
+    <item key="facebook.confirmUpload.cancel">cancelar guardar</item>
+    
+    <item key="facebook.confirmUpload.competition.title">¡Gracias!</item>
+    <item key="facebook.confirmUpload.competition.content"><![CDATA[Tu graffiti ha sido presentado a la Competencia. Procede a publicarlo en la Galería para votación.]]></item>
+    
+    
+    <item key="facebook.album.description">Todo Graffiti en este álbum fue creado usando la aplicación Graffiti S.W.A.T. Ven y pinta tu propio graffiti en http://apps.facebook.com/graffitiswat/</item>
+    
+    <item key="upload.inprocess"><![CDATA[Tu Graffiti ha sido guardado...<br/><br/>…y aparecerá pronto en tu Blackbook.]]></item>
+    <item key="upload.inprocess.public"><![CDATA[Tu Graffiti ha sido guardado y copiado a la Galería S.W.A.T. .]]></item>
+    <item key="upload.success"><![CDATA[Carga exitosa.]]></item>
+    <item key="upload.saveforlater.sucess"><![CDATA[Tu Graffiti ha sido guardado.<br/><br/>Puedes retomarlo la próxima vez que visites Graffiti S.W.A.T.]]></item>
+   
+    <item key="wallpost.fail"><![CDATA[Carga exitosa, publicación en Muro falló.<br/><br/>Asegúrate que tu conexión a internet funciona correctamente.]]></item>
+    <item key="upload.fail"><![CDATA[Carga falló.<br/><br/>Asegúrate que tu conexión a internet funciona e intenta más tarde.]]></item>
+    <item key="tag.fail"><![CDATA[¡Perdón!<br/><br/>Tu graffiti ha sido cargado a la Página de Graffiti S.W.A.T. , pero hemos fallado en etiquetarte en él. Por favor, contáctanos para más información.]]></item>
+    <item key="upload.public.fail"><![CDATA[Carga a Galería S.W.A.T. ha fallado.<br/><br/>Intenta de nuevo más tarde.]]></item>
+    
+   
+    <item key="dudes.saving">Creating download file... this can take up to 1 minute.</item>
+    <item key="dudes.saving.failed">Creating download file failed!</item>
+    <item key="dudes.saving.success">Please wait... a download window will open shortly.</item>
+    
+    <item key="facebook.grantRights.title">Conceder Derechos</item>
+    <item key="facebook.grantRights.content"><![CDATA[Necesitas los derechos necesarios para guardar. Pulsa "CONTINUAR" para concederlos.]]></item>
+    <item key="facebook.grantRights.ok">continuar</item>
+    <item key="facebook.grantRights.cancel">cancelar guardar</item>
+    
+    <item key="facebook.albumFull.title">Album completo</item>
+    <item key="facebook.albumFull.content"><![CDATA[¡¡Impresionante!! ¡Ha cargado una cantidad increíble de 1000 Graffitis! Ahora ha llegado a la última página de su Graffiti SWAT Blackbook.<br/><br/>Pulsa continuar para obtener un nuevo BlackBook y agregar tu primer Graffiti en él.]]></item>
+    <item key="facebook.albumFull.ok">continuar</item>
+    <item key="facebook.albumFull.cancel">cancelar guardar</item>
+    
+    <item key="facebook.disconnected.title"><![CDATA[Perdona, no pudimos conectar a Facebook.]]></item>
+  	<item key="facebook.disconnected.content"><![CDATA[Asegúrate que tu conexión a internet funciona e intenta más tarde. Si el problema continúa, pula descargar para guardar tu archivo y contáctanos en facebook.com/GraffitiSWAT.  ]]></item>
+ 	<item key="facebook.disconnected.ok">descargar</item>
+    <item key="facebook.disconnected.cancel">intenta más tarde</item>
+    
+    <item key="facebook.permissions.fail"><![CDATA[Es necesario permitir el acceso a su muro y fotos para la publicación de su graffiti así como el acceso a sus amigos para poder colaborar en la creación de un grafiti conjunto.<br/><br/>Inténtelo de nuevo y haga clic en "Permitir " en la ventana de permisos de Facebook.]]></item>
+    <item key="surface.error"><![CDATA[Error: no ha podido cargar ]]></item>
+</dictionary>

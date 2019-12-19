@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+    <property key="colorsSrc">data/en/colors.xml</property>
+    <property key="toolsSrc">data/en/tools.xml</property>
+    
+    <property key="surfacesPath">images/surfaces/</property>
+    <property key="toolsPath">images/tools/</property>
+    
+    <property key="navigationSrc">data/en/navigation.xml</property>
+    
+    <property key="downloadSrc">php/utils/download.php</property>
+    
+    <property key="userGeneratedContentPath">USERCONTENT</property>
+	<property key="meemailUrl">http://apps.facebook.com/mee-mail</property>
+    <property key="facebook.credits.link">http://www.facebook.com/credits/</property>
+	
+	<!-- DO NOT CHANGE!!!! -->
+	<property key="app.name">Graffiti S.W.A.T.</property>
+    <property key="app.baseUrl">https://graffiti.mee-mail.com/</property>
+
+	<property key="album.private.name">Graffiti S.W.A.T. Blackbook</property> 
+	<property key="album.public.name">S.W.A.T. Gallery Entries</property> 
+	<property key="album.shirt.id">420815174599037</property>
+	<property key="album.public.id">435342679812953</property>
+	<property key="page.id">350127178334504</property> 
+	<!-- 
+	<property key="album.private.name">Graffiti S.W.A.T. Blackbook (dev)</property>
+	<property key="album.public.name">S.W.A.T. Gallery Entries (dev)</property> 
+	<property key="album.public.id">325566914141563</property> 
+	<property key="page.id">325566384141616</property> 
+	 -->
+    <property key="page.url">http://www.facebook.com/GraffitiSWAT</property>
+    
+   	<property key="facebook.feed.picture">http://graffiti.mee-mail.com/php/utils/showgraffiti.php?photo=$filename$</property>
+    <property key="facebook.sendCollab.link">http://apps.facebook.com/$appalias$</property>
+   	<property key="facebook.sendCollab.picture.alt">$appserver$/images/logo_wallpost.jpg</property>
+   	<property key="facebook.feed.gallery.picture">$appserver$/$src$</property>
+   	<property key="facebook.feed.gallery.link">$appserver$/gallery/image.php?image=$id$</property>
+
+</properties>

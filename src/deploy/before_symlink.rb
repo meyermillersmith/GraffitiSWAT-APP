@@ -1,0 +1,1 @@
+::File.symlink('/vol/data/public/graffiti', "#{release_path}/public/files")

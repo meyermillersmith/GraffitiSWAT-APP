@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Graffiti S.W.A.T.</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+	 	<!-- Include support FB librarys first -->
+		<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script> -->
+		<script type="text/javascript" src="https://connect.facebook.net/en_US/all.js"></script>
+		
+		<!--	Include SWF Object and MouseWheel MAC	-->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/swfaddress.js"></script>
+		<script type="text/javascript" src="js/swfobject.js"></script>
+		<script type="text/javascript" src="js/swfmacmousewheel.js"></script>
+		<script type="text/javascript" src="js/transitions.js"></script>
+		
+		<script type="text/javascript">
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', 'UA-28975922-1']);
+			  _gaq.push(['_trackPageview']);
+			
+			  (function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+		</script>
+		
+		<!--	SWF object and fullscreen functions	-->
+	<script type="text/javascript">
+		var flashvars = {};
+		flashvars.assetsSrc = "data/en/assets.xml";
+		flashvars.title = escape(document.title);
+		flashvars.fbid  = "-1"; 
+		flashvars.name  = ""; 
+		flashvars.first_name  = "";
+		flashvars.appid  = "173839762716148";
+		flashvars.surfaceid  = "swat_freight_train";
+		flashvars.showBanner  = "false";
+		
+		var params = {};
+		params.bgcolor = "#000000";
+		params.wmode = "opaque";
+		params.allowFullscreen = "true";
+		params.allowScriptAccess = "always";
+		
+		var attributes = {};
+		attributes.id = "swf";
+		attributes.name = "swf";
+	
+		swfobject.embedSWF("flash/main.swf?v=4", "swfContainer", "100%", "100%", "10", "flash/expressInstall.swf", flashvars, params, attributes);
+		swfmacmousewheel.registerObject(attributes.id);
+		swfmacmousewheel.setWMode(params.wmode);
+		
+	</script>
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="css/flash_embed.css" />
+		<!--[if lte IE 6]>
+		<link rel="stylesheet" type="text/css" href="css/flash_embed_ie6.css" />
+		<![endif]-->
+		
+	</head>
+	<body>
+	
+	
+	
+		<div id="help">
+			<div id="helpClose" class="closeButton"></div>
+		</div>
+		<div id="helpBlocker"></div>
+	
+		<div id="fb-root"></div><!-- required div tag -->
+	
+		<script type="text/javascript">(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=123456";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		
+	<!--[if lte IE 6]><div class="fullFlashWrapperIE6"><![endif]-->
+		
+	<div id="swfWrapper">
+	<div id="swfContainer">
+			<h1>Please update your Flash Player</h1>
+			<p>This site makes use of the Adobe Flash Player 10 and Javascript.</p>
+			<p>The latest versions of browsers such as Firefox, Netscape or Internet Explorer usually have the Flash Player pre-installed. If your browser doesn't or has an older version of the player, you can <a href="https://www.adobe.com/go/getflashplayer" target="_blank"><b>download it here</b></a>.</p>
+			<p>Please make sure you have Javascript turned on in the settings of your browser.</p>
+			<p><a href="https://www.adobe.com/go/getflashplayer" target="_blank"><img src="images/160x41_Get_Flash_Player.jpg" alt="Get Adobe Flash Player" title="Get Adobe Flash Player" border="0" /></a><br /><a href="?detectflash=false"><b>Click here</b></a> if you're quite sure to have Flash 10 installed.</p>
+		</div>
+		</div>
+	<!--[if lte IE 6]></div><![endif]-->
+	<script type="text/javascript">
+			resizeFlash();
+			function resizeFlash(){
+				$("#swfWrapper").height($(window).height() - $('#headerWrapper').height());
+			}
+ 
+ 			 window.onresize = resizeFlash;
+	</script>
+	</body>
+</html>

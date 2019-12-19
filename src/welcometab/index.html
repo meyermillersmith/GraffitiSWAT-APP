@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
+	
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+		<title>Welcome</title>
+		<meta name="MSSmartTagsPreventParsing" content="true"/>
+		<meta http-equiv="imagetoolbar" content="no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=7" />
+		
+		<link rel="stylesheet" type="text/css" href="css/home.css" />
+		<script type="text/javascript" src="js/jquery.tools.more.js"></script>
+		
+		<script type="text/javascript">
+			window.fbAsyncInit = function() {
+			FB.Canvas.setSize();
+			}
+			// Do things that will sometimes call sizeChangeCallback()
+			function sizeChangeCallback() {
+			FB.Canvas.setSize();
+			}
+		</script>
+		<script type="text/javascript">
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', 'UA-28975922-1']);
+			  _gaq.push(['_trackPageview']);
+			
+			  (function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+		</script>
+
+	</head>
+
+	<body onload="sizeChangeCallback()" style="overflow:hidden;">
+	
+	<div id="wrapper">
+	
+			<div id="tabs" class="tabs">
+			<div id="tube">LONDON<br/>UNDERGROUND</div>
+			<div id="tram">BERLIN<br/>TRAM</div>
+			<div id="wall">BERLIN<br/>WALL</div>
+			<div id="ubahn">BERLIN<br/>UBAHN</div>
+			</div>
+			<div id="tabcorners" class="tabcorners">
+			</div>
+			<script type="text/javascript">
+				document.getElementById("tube").style.paddingLeft = '6px';
+				drawCorners();
+				activateTab(document.getElementById("tube"), true);
+				
+				$("#tube").click(onClickTab);
+				$("#tram").click(onClickTab);
+				$("#wall").click(onClickTab);
+				$("#ubahn").click(onClickTab);
+				
+				$("#tram").hover(colorateRed, colorateBack);
+				$("#wall").hover(colorateRed, colorateBack);
+				$("#ubahn").hover(colorateRed, colorateBack);
+				
+				
+				function drawCorners() {
+					var tabkids = document.getElementById("tabs").childNodes;
+					var realI = 0;
+					for (var i=0; i< tabkids.length; i++){
+						if (tabkids[i].className != undefined){
+							var cornerDiv = document.createElement('div');
+							colorateCorner(cornerDiv, realI == 0);
+							cornerDiv.style.left = tabkids[i].offsetLeft+$('#'+tabkids[i].id).outerWidth()-1+'px';//tabkids[i].style.left + tabkids[i].style.width;
+							cornerDiv.style.top = "0px";
+							cornerDiv.style.position = "absolute";
+							cornerDiv.style.width = "21px";
+							cornerDiv.style.height = "34px";
+							cornerDiv.style.backgroundImage="url('images/controls/tabs/tabcorner.png')";
+							cornerDiv.id = 'corner'+realI;
+							document.getElementById("tabcorners").appendChild(cornerDiv);
+							realI++;
+						}
+					}
+				}
+				
+				function colorateCorner(corner, active){
+					corner.style.backgroundPosition=(active ? "0px 0px" : "-21px 0px");
+				}
+				
+				function colorateRed() {
+					this.style.color = "#FF0000";
+				}
+				
+				function colorateBack() {
+					this.style.color = "#BBBBBB";
+				}
+				
+				function onClickTab() {
+					if (String(this.style.backgroundColor) != "rgb(0, 0, 0)"){
+						replaceGallery(this.id);
+						colorateTabs(this);
+					}
+				}
+				
+				function colorateTabs(tab) {
+					var tabkids = tab.parentNode.childNodes;
+					var realI = 0;
+					for (var i=0; i< tabkids.length; i++){
+						if (tabkids[i].className != undefined){
+							activateTab(tabkids[i], tabkids[i] == tab);
+							colorateCorner(document.getElementById('corner'+realI), tabkids[i] == tab);
+							realI++;
+						}
+					}
+				}
+				
+				function activateTab(tab, active) {
+					if (active) {
+						$("#"+tab.id).unbind('mouseenter');
+						$("#"+tab.id).unbind('mouseleave');
+					} else {
+						$("#"+tab.id).hover(colorateRed, colorateBack);
+					}
+					tab.style.backgroundImage="url('images/controls/tabs/background_"+(active ? 'active' : 'inactive')+".gif')";
+					tab.style.backgroundColor = (active ? "#000000" : "#666666");
+					tab.style.color = (active ? "#FF0000" : "#BBBBBB");
+				}
+				
+				function replaceGallery(galleryId){
+					var firstElement = 0;
+					switch(galleryId)
+					{
+						case 'tube':
+  							firstElement = 0;
+  						break;
+						case 'tram':
+  							firstElement = 12;
+  						break;
+						case 'wall':
+  							firstElement = 17;
+  						break;
+						case 'ubahn':
+  							firstElement = 26;
+  						break;
+					}
+					var api = $(".scrollable").data("scrollable");
+					stopAutoScroll();
+					killAutoScroll = false;
+					api.seekTo(firstElement, '10');
+				}
+			</script>
+			<div class="teaserMain">
+				<div id="hsP"><a class="prev browse left"></a></div>
+				<div id="hsN"><a class="next browse right"></a></div>
+				
+				<div class="scrollable" id="browsable">
+					<div id='gallery' class="items">
+						<img src="images/galleries/london/01.jpg" alt="" />
+						<img src="images/galleries/london/02.jpg" alt="" />
+						<img src="images/galleries/london/03.jpg" alt="" />
+						<img src="images/galleries/london/04.jpg" alt="" />
+						<img src="images/galleries/london/05.jpg" alt="" />
+						<img src="images/galleries/london/06.jpg" alt="" />
+						<img src="images/galleries/london/07.jpg" alt="" />
+						<img src="images/galleries/london/08.jpg" alt="" />
+						<img src="images/galleries/london/09.jpg" alt="" />
+						<img src="images/galleries/london/10.jpg" alt="" />
+						<img src="images/galleries/london/11.jpg" alt="" />
+						<img src="images/galleries/london/12.jpg" alt="" />
+						
+						<img src="images/galleries/tram/01.jpg" alt="" />
+						<img src="images/galleries/tram/02.jpg" alt="" />
+						<img src="images/galleries/tram/03.jpg" alt="" />
+						<img src="images/galleries/tram/04.jpg" alt="" />
+						<img src="images/galleries/tram/05.jpg" alt="" />
+						
+						<img src="images/galleries/wall/01.jpg" alt="" />
+						<img src="images/galleries/wall/02.jpg" alt="" />
+						<img src="images/galleries/wall/03.jpg" alt="" />
+						<img src="images/galleries/wall/04.jpg" alt="" />
+						<img src="images/galleries/wall/05.jpg" alt="" />
+						<img src="images/galleries/wall/06.jpg" alt="" />
+						<img src="images/galleries/wall/07.jpg" alt="" />
+						<img src="images/galleries/wall/08.jpg" alt="" />
+						<img src="images/galleries/wall/09.jpg" alt="" />
+						
+						<img src="images/galleries/ubahn/01.jpg" alt="" />
+						<img src="images/galleries/ubahn/02.jpg" alt="" />
+						<img src="images/galleries/ubahn/03.jpg" alt="" />
+						<img src="images/galleries/ubahn/04.jpg" alt="" />
+						<img src="images/galleries/ubahn/05.jpg" alt="" />
+						<img src="images/galleries/ubahn/06.jpg" alt="" />
+						<img src="images/galleries/ubahn/07.jpg" alt="" />
+						<img src="images/galleries/ubahn/08.jpg" alt="" />
+						<img src="images/galleries/ubahn/09.jpg" alt="" />
+					</div>
+				</div>
+			</div>
+			
+			<script type="text/javascript">
+				$(function() {					
+					$("#browsable").scrollable();					
+					var api = $(".scrollable").data("scrollable");
+				});
+				
+				$("#browsable").scrollable().navigator();
+				
+				var killAutoScroll = false;
+				
+				var api = $(".scrollable").data("scrollable");
+				api.onSeek(browseImage);
+				api.onBeforeSeek(browseImager);
+				api.next(20000); 
+				
+				function browseImager(){
+				}
+				function browseImage(){
+					var tab;
+					var currentIndex = api.getIndex();
+					if (currentIndex < 12){
+  							tab = document.getElementById('tube');
+					} else if (currentIndex < 17){
+  							tab = document.getElementById('tram');
+					} else if (currentIndex < 25){
+  							tab = document.getElementById('wall');
+					} else {
+  							tab = document.getElementById('ubahn');
+					}
+					if (tab != undefined){
+						colorateTabs(tab);
+					}
+					if (killAutoScroll){
+					} else {
+						resumeAutoScroll();
+					}
+				}
+				
+				
+				$("#hsP").hover(stopAutoScroll, resumeAutoScroll);
+				$("#hsN").hover(stopAutoScroll, resumeAutoScroll);
+				//$("#tabs").hover(stopAutoScroll, resumeAutoScroll);
+				
+				
+				function stopAutoScroll(){
+					$("#gallery").stop();
+					killAutoScroll = true;
+					api.prev(0); 
+				}
+				function resumeAutoScroll(){
+					killAutoScroll = false;
+					api.next(20000); 
+				}
+			</script>
+			
+			<div class="textBackground"> </div>
+			<div class="clickhere">
+				<img id="clickhere" style="cursor:pointer" src="images/elements/clickhereto.gif" alt="CLICK HERE">
+			</div>
+			<div id="spray" class="spray"></div></a>
+			<div id="start" class="start"></div></a>
+			<div style="width: 100%; margin-top: 0px; margin-right: 0px;">
+				<div class="hotlink"><img src="images/elements/img_a.jpg" width="253" height="203" alt="" /><div class="caption">Paint with different caps and pens.<br/>Variable spray distance.</div></div>
+				<div class="hotlink hotlinkLast"><img src="images/elements/img_b.jpg" width="253" height="203" alt="" /><div class="caption">Coming soon: the all new 3D mode!</div></div>
+			</div>
+			<script type="text/javascript">
+				$("#clickhere").click(goToApp);
+				$("#spray").click(goToApp);
+				$("#start").click(goToApp);
+				
+				function goToApp(){
+					top.location.href = 'https://apps.facebook.com/graffitiswat/';
+				}
+			</script>
+
+	</div>
+	
+	<div id="fb-root">
+    </div>
+    <script src="https://connect.facebook.net/en_US/all.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      FB.init({
+        //status : true, // check login status
+        //cookie : true, // enable cookies to allow the server to access the session
+        xfbml  : true  // parse XFBML
+      });
+      FB.Canvas.setAutoResize( 100 );
+    </script>
+</body>
+</html>

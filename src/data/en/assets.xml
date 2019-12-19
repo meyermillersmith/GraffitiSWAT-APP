@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assets>
+
+	<xml key="copy" src="data/en/copy.xml" />
+	<xml key="properties" src="data/en/properties.xml" />
+	<css key="css" src="css/western.css" />
+	<swf key="swfAssets" src="flash/assets.swf?v=1" />
+	<font src="fonts/arial_bold.swf" />
+	<font src="fonts/lubalin.swf" />
+
+</assets>

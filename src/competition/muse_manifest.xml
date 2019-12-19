@@ -1,0 +1,35 @@
+<manifest alg="2" build="960" opt="false">
+  <folder name="css">
+    <file name="site_global.css" crc="4075424473"/>
+    <file name="index.css" crc="226124423" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <folder name="1.1">
+      <file name="jquery-1.7.min.js" crc="4285342938" ref="index"/>
+      <file name="sprydomutils.js" crc="4230755498" ref="index"/>
+      <file name="museutils.js" crc="3762396489" ref="index"/>
+      <file name="pie.js" crc="4169505556" ref="index"/>
+    </folder>
+  </folder>
+  <folder name="images">
+    <file name="u128-4.png" crc="3979192925" ref="index"/>
+    <file name="logos.jpg" crc="517536030" ref="index"/>
+    <file name="u135-4.png" crc="535279395" ref="index"/>
+    <file name="u135-8-r.png" crc="393452965" ref="index"/>
+    <file name="u135-12-m.png" crc="3768993999" ref="index"/>
+    <file name="u80-4.png" crc="400578188" ref="index"/>
+    <file name="line.jpg" crc="27716047" ref="index"/>
+    <file name="u86-4.png" crc="4100786406" ref="index"/>
+    <file name="02_canvases.jpg" crc="245370413" ref="index"/>
+    <file name="u87-4.png" crc="4068095019" ref="index"/>
+    <file name="03.jpg" crc="3979795921" ref="index"/>
+    <file name="u112-4.png" crc="4071580800" ref="index"/>
+    <file name="04.jpg" crc="4099890868" ref="index"/>
+    <file name="u138-4.png" crc="535279395" ref="index"/>
+    <file name="u138-8-r.png" crc="393452965" ref="index"/>
+    <file name="u138-12-m.png" crc="3768993999" ref="index"/>
+    <file name="u125-6.png" crc="255956933" ref="index"/>
+    <file name="books.jpg" crc="11997529" ref="index"/>
+  </folder>
+  <file name="index.html" crc="160147327" mt="1345115847746"/>
+</manifest>
