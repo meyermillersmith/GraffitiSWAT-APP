@@ -223,9 +223,9 @@ error_reporting(E_ALL);*/
 				<div class="teaser_footer">
 					<div class="teaser_footer_ad">
 						<script type="text/javascript"><!--
-						google_ad_client = "ca-pub-5461937364848646";
+						google_ad_client = "";
 						/* GS Related Topics */
-						google_ad_slot = "9026940119";
+						google_ad_slot = "";
 						google_ad_width = 728;
 						google_ad_height = 15;
 						//-->
